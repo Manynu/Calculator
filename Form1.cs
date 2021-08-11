@@ -23,8 +23,15 @@ namespace Calculator
         private void onClickEvent(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if ((textBoxResult.Text == "0") || (operationPerformed))
-                textBoxResult.Text = "";
+            if (button.Text == ".") 
+            { 
+                textBoxResult.Text = textBoxResult.Text;
+            }
+            else 
+            {
+                if ((textBoxResult.Text == "0") || (operationPerformed))
+                    textBoxResult.Text = "";
+            }
             if (button.Text == ".")
             {
                 if (!textBoxResult.Text.Contains("."))
