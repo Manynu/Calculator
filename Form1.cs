@@ -13,7 +13,6 @@ namespace Calculator
     public partial class Calculator : Form
     {
         Double result = 0.0;
-        // test
         String operation = "";
         bool operationPerformed = false;
         public Calculator()

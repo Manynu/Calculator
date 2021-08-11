@@ -9,3 +9,4 @@ obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
 obj/Debug/Calculator.csproj.AssemblyReference.cache
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+*.cache
